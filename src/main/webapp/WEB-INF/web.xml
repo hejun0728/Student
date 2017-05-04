@@ -1,0 +1,59 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+		<servlet-name>ListStudent</servlet-name>
+		<display-name>ListStudent</display-name>
+		<description></description>
+		<servlet-class>com.biz.action.ListStudent</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddStudent</servlet-name>
+		<display-name>AddStudent</display-name>
+		<description></description>
+		<servlet-class>com.biz.action.AddStudent</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UpdateStudent</servlet-name>
+		<display-name>UpdateStudent</display-name>
+		<description></description>
+		<servlet-class>com.biz.action.UpdateStudent</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UpdateCommit</servlet-name>
+		<display-name>UpdateCommit</display-name>
+		<description></description>
+		<servlet-class>com.biz.action.UpdateCommit</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DelStudent</servlet-name>
+		<display-name>DelStudent</display-name>
+		<description></description>
+		<servlet-class>com.biz.action.DelStudent</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ListStudent</servlet-name>
+		<url-pattern>/ListStudent</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddStudent</servlet-name>
+		<url-pattern>/AddStudent</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateStudent</servlet-name>
+		<url-pattern>/UpdateStudent</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateCommit</servlet-name>
+		<url-pattern>/UpdateCommit</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DelStudent</servlet-name>
+		<url-pattern>/DelStudent</url-pattern>
+	</servlet-mapping>
+  
+</web-app>
+
